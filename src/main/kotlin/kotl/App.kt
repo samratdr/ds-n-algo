@@ -39,8 +39,18 @@ println(animals[0].first()) // {r=reindeer, c=camel, g=giraffe}
 */
 
 fun main(args: Array<String>) {
-    val iArr = intArrayOf(87, 93, 57, 19, 4, 79, 23)
+//    val iArr = intArrayOf(87, 93, 57, 19, 4, 79, 23)
     // selectionSort(iArr)
     // bubbleSort(iArr)
 
+//     val arr = randomNumArray(7, 100).toIntArray()
+
+//    val arr = intArrayOf(7, 2, 5, 1, 4)
+    val arr = intArrayOf(87, 60, 84, 43, 42, 41, 74)
+    printArr(arr)
+
+    // shuffleArray(arr)
+    heapSort(arr)
+
+    printArr(arr)
 }
