@@ -1,2 +1,2 @@
-# ds-n-algo
-data structures and algorithms implementations
+# Data structure and algorithms
+Data structures and algorithms implementations
