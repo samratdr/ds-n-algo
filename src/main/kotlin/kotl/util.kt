@@ -21,9 +21,7 @@ fun printArr(arr: IntArray) {
 fun randomNumArray(
         length: Int,
         maxVal: Int = 10
-): Array<Int> {
-    return Array(length) { (maxVal * Math.random()).roundToInt() }
-}
+): Array<Int> = Array(length) { (maxVal * Math.random()).roundToInt() }
 
 fun shuffleArray(arr: IntArray) {
     val rg = Random(arr.size)

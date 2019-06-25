@@ -43,14 +43,14 @@ fun main(args: Array<String>) {
     // selectionSort(iArr)
     // bubbleSort(iArr)
 
-//     val arr = randomNumArray(7, 100).toIntArray()
+     val arr = randomNumArray(7, 100).toIntArray()
 
 //    val arr = intArrayOf(7, 2, 5, 1, 4)
-    val arr = intArrayOf(87, 60, 84, 43, 42, 41, 74)
+//    val arr = intArrayOf(87, 60, 84, 43, 42, 41, 74)
     printArr(arr)
 
     // shuffleArray(arr)
-    heapSort(arr)
+    // heapSort(arr)
 
-    printArr(arr)
+//    printArr(arr)
 }
