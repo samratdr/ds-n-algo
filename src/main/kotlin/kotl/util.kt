@@ -21,8 +21,8 @@ fun printArr(arr: IntArray) {
 fun randomNumArray(
         length: Int,
         maxVal: Int = 10
-): Array<Int> {
-    return Array(length) { (maxVal * Math.random()).roundToInt() }
+): IntArray {
+    return Array(length) { (maxVal * Math.random()).roundToInt() }.toIntArray()
 }
 
 fun shuffleArray(arr: IntArray) {
